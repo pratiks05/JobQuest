@@ -9,14 +9,14 @@ const Header= () => {
         <Link>
             <img src="/logo.png" className="h-20"></img>
         </Link>
-        {/* <Button variant="outline">Login</Button> */}
+        <Button variant="outline">Login</Button>
 
-      <SignedOut>
+      {/* <SignedOut>
             <SignInButton/>
       </SignedOut>
       <SignedIn>
             <UserButton/>
-      </SignedIn>
+      </SignedIn> */}
 
     </nav>
    </>
