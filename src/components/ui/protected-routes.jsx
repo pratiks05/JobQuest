@@ -1,3 +1,5 @@
+/* eslint-disable react/prop-types */
+/* eslint-disable no-unused-vars */
 import { useUser } from "@clerk/clerk-react"
 import { Navigate, useLocation } from "react-router-dom";
 
@@ -10,7 +12,14 @@ const ProtectedRoute= ({children}) => {
     {
         return <Navigate to="/?sign-in=true"/>;
     }
+
+    if(
+      user!==undefined && 
+      !user?.unsafeMetadata?.role &&
+      pathname!=="/onboarding"
+    )
+      return <Navigate to="/onboarding"/>;
   return children;
 };
 
-export default ProtectedRoute
+export default ProtectedRoute;
