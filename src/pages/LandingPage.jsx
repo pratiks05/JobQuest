@@ -14,11 +14,11 @@ const LandingPage = () => {
     <section className="text-center">
       <h1 className="flex flex-col items-center justify-center gradient-title text-4xl font-extrabold sm:text-6xl lg:text-8xl tracking-tighter py-4"
       >Find your Dream Job {" "}
-      <span className="flex items-center gap-2 sm:gap-6 ">and get {" "} 
-      <img
-       src="/logo.png"
+      <span className="flex items-center gap-2 sm:gap-6 ">and get {" "} Hired
+      {/* <img
+       src="/logo-dark-2.png"
        alt="Logo" 
-       className="h-14 sm:h-24 lg:h-32"/>
+       className="h-48 sm:h-40 invert brightness-0 "/> */}
        </span>
       </h1>
       <p className="text-gray-300 sm:mt-4 text-xs sm:text-xl">
@@ -57,7 +57,7 @@ const LandingPage = () => {
     </Carousel>
 
        {/* banner image */}
-       <img src="/banner.jpeg" className="w-full" alt="banner" />
+       <img src="/banner1.png" className="w-full" alt="banner" />
 
 
 
