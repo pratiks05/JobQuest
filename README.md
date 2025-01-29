@@ -1,8 +1,23 @@
-# React + Vite
+# JobQuest - React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project, **JobQuest**, is a job portal full-stack website designed for both recruiters and candidates. Recruiters can create job postings, and candidates can apply for jobs seamlessly.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Built with **React + Vite** for a fast and optimized development experience
+- **Recruiters** can create, manage, and edit job postings
+- **Candidates** can browse and apply for job opportunities
+- Authentication and user management handled with **Clerk**
+- Backend powered by **Supabase** for real-time data handling
+- UI components designed using **shadcn/UI**
+- Modern and scalable full-stack web application
+
+## Tech Stack
+
+- **Frontend:** ReactJS, Vite, shadcn/UI
+- **Authentication:** Clerk
+- **Backend & Database:** Supabase
+- **State Management:** React Context / Zustand
+- **Styling:** Tailwind CSS
+
+
