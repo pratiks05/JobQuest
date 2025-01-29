@@ -16,6 +16,7 @@ import { updateApplicationStatus } from "@/api/apiApplications";
 
 const ApplicationCard = ({ application, isCandidate = false }) => {
 
+    // Temporrary solution 
   const handleDownload = () => {
     if(application?.resume)
     {
