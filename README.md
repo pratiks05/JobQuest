@@ -20,4 +20,7 @@ This project, **JobQuest**, is a job portal full-stack website designed for both
 - **State Management:** React Context / Zustand
 - **Styling:** Tailwind CSS
 
+## License
+[MIT LICENSE] (LICENSE)
+
 
