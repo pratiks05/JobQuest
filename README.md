@@ -1,6 +1,10 @@
 # JobQuest - React + Vite
 
+
+
 This project, **JobQuest**, is a job portal full-stack website designed for both recruiters and candidates. Recruiters can create job postings, and candidates can apply for jobs seamlessly.
+
+![JobQuest Logo](/public/jobquest-1.png)
 
 ## Features
 
@@ -20,7 +24,8 @@ This project, **JobQuest**, is a job portal full-stack website designed for both
 - **State Management:** React Context / Zustand
 - **Styling:** Tailwind CSS
 
-## License
-[MIT LICENSE] (LICENSE)
+## 📄 License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details
 
 
